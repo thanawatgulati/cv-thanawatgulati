@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/header';
 
 const Index = () => {
   return (
     <div>
-      <h1>Welcome To NEXTJS.</h1>
+      <h1>
+        <Header />
+      </h1>
     </div>
   );
 };
